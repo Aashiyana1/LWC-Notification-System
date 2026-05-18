@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title="Notifications">
+        <div class="notification-box">
+
+            <lightning-icon
+                icon-name="utility:notification"
+                size="large">
+            </lightning-icon>
+
+            <div class="count">
+                Unread: {unreadCount}
+            </div>
+
+            <div class="button-space">
+                <lightning-button
+                    label="Add Notification"
+                    onclick={handlePrompt}>
+                </lightning-button>
+            </div>
+
+            <div class="button-space">
+                <lightning-button
+                    label="Show Alert"
+                    onclick={showAlert}>
+                </lightning-button>
+            </div>
+
+        </div>
+    </lightning-card>
+</template>

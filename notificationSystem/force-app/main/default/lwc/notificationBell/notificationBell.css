@@ -1,0 +1,15 @@
+.notification-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0176d3;
+    margin-top: 10px;
+}
+
+.button-space {
+    margin-top: 15px;
+}

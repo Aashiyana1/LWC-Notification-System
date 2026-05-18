@@ -1,0 +1,9 @@
+.message-item {
+    padding: 10px;
+    border-bottom: 1px solid #d8dde6;
+}
+
+.message-item:hover {
+    background-color: #f3f3f3;
+    cursor: pointer;
+}

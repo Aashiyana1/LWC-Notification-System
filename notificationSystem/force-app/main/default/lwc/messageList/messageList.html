@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Message List">
+        <template for:each={notifications} for:item="item">
+            <div key={item.Id} class="message-item">
+
+                <lightning-button
+                    label={item.Title__c}
+                    data-id={item.Id}
+                    onclick={handleSelect}
+                    variant="base">
+                </lightning-button>
+
+            </div>
+        </template>
+    </lightning-card>
+</template>
